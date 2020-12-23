@@ -23,6 +23,13 @@ function Navbar() {
   }, []);
 
   window.addEventListener('resize', showButton);
+  //istedenfor 
+  //<a href='https://www.facebook.com/groups/284606412504384' className='nav-links-mobile' onClick={closeMobileMenu}>
+  //  BLI MED
+  //</a>
+  //<Link to='sign-up' className='nav-links-mobile' onClick={closeMobileMenu}>
+  //  BLI MED
+  //</Link>
 
   return (
     <>
@@ -42,7 +49,7 @@ function Navbar() {
               </Link>
             </li>
             <li className='nav-item'>
-              <Link to='/services' className='nav-links' onClick={closeMobileMenu}>
+              <Link to='/informasjon' className='nav-links' onClick={closeMobileMenu}>
                 Informasjon
               </Link>
             </li>
@@ -52,9 +59,9 @@ function Navbar() {
               </Link>
             </li>
             <li>
-              <Link to='/sign-up' className='nav-links-mobile' onClick={closeMobileMenu}>
+              <a href='https://www.facebook.com/groups/284606412504384' className='nav-links-mobile' onClick={closeMobileMenu}>
                 BLI MED
-              </Link>
+              </a>
             </li>
           </ul>
           {button && <Button buttonStyle='btn--outline'>BLI MED</Button>}
