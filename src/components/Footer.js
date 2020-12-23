@@ -8,9 +8,9 @@ function Footer() {
       <section class='social-media'>
         <div class='social-media-wrap'>
           <div class='footer-logo'>
-            <Link to='/' className='social-logo'>
+            {/* <Link to='/' className='social-logo'>
               ØKK <i class='fas fa-camera' />
-            </Link>
+            </Link> */}
           </div>
           <div class='social-icons'>
             <Link
@@ -28,14 +28,6 @@ function Footer() {
               aria-label='Instagram'
             >
               <i class='fab fa-instagram' />
-            </Link>
-            <Link
-              class='social-icon-link youtube'
-              to='/'
-              target='_blank'
-              aria-label='Youtube'
-            >
-              <i class='fab fa-youtube' />
             </Link>
             <Link
               class='social-icon-link twitter'

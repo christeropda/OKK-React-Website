@@ -53,11 +53,11 @@ function Navbar() {
                 Informasjon
               </Link>
             </li>
-            <li className='nav-item'>
+            {/* <li className='nav-item'>
               <Link to='/services' className='nav-links' onClick={closeMobileMenu}>
                 Album
               </Link>
-            </li>
+            </li> */}
             <li>
               <a href='https://www.facebook.com/groups/284606412504384' className='nav-links-mobile' onClick={closeMobileMenu}>
                 BLI MED
