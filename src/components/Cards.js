@@ -2,8 +2,6 @@ import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
 
-import bent from "../assets/images/bent1.jpg"
-
 function Cards() {
   return (
     <div className='cards'>
