@@ -17,7 +17,6 @@ p {
   }
 
 .info__container{
-    
     display: flex;
     flex-flow: column;
     align-items: center;
