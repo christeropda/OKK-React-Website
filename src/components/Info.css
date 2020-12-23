@@ -1,6 +1,6 @@
 .info {
     padding: 4rem;
-    background: #fff;
+    background: white;
     height: 100%;
 }
 
@@ -21,7 +21,7 @@ p {
     flex-flow: column;
     align-items: center;
     max-width: 1120px;
-    width: 70%;
+    width: 33%;
     margin: 0 auto;
 }
 .info__wrapper{
@@ -50,15 +50,17 @@ p {
     font-size: 2.3rem;
 }
 
-.info__item > p {
+.info__item__text > p {
     text-align: center;
     margin-left: 20;
+    font-size: 1.5rem;
 }
 
 .info__text {
     margin-top: 5%;
     margin-bottom: 5%;
     text-align: center;
+    flex: 1 0 auto;
 }
 
 .info__text > h1 {
