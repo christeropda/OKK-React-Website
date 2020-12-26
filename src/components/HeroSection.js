@@ -8,8 +8,8 @@ function HeroSection() {
     return(
         <div className='hero-container'>
             <video src='/videos/video-1.mp4' autoPlay loop muted />
-            <h1>Øygarden Kamera Klubb</h1>
-            <p>For de litt spesielt intereserte</p>
+            <h1>Øygarden Kameraklubb</h1>
+            <p>For de foto interesserte</p>
             <div className='hero-btns'>
                 <Link to='/informasjon'>
                     <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>

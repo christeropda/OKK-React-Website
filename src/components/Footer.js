@@ -13,15 +13,15 @@ function Footer() {
             </Link> */}
           </div>
           <div class='social-icons'>
-            <Link
+            <a
               class='social-icon-link facebook'
-              to='/'
+              href='https://www.facebook.com/groups/284606412504384'
               target='_blank'
               aria-label='Facebook'
             >
               <i class='fab fa-facebook-f' />
-            </Link>
-            <Link
+            </a>
+            {/* <Link
               class='social-icon-link instagram'
               to='/'
               target='_blank'
@@ -44,7 +44,7 @@ function Footer() {
               aria-label='LinkedIn'
             >
               <i class='fab fa-linkedin' />
-            </Link>
+            </Link> */}
           </div>
         </div>
       </section>
