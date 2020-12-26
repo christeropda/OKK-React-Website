@@ -2,6 +2,7 @@ import React from "react";
 import { Button } from "./Button";
 import '../App.css';
 import './HeroSection.css';
+import { Link } from 'react-router-dom';
 
 function HeroSection() {
     return(
@@ -10,9 +11,11 @@ function HeroSection() {
             <h1>Øygarden Kamera Klubb</h1>
             <p>For de litt spesielt intereserte</p>
             <div className='hero-btns'>
-                <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>
-                    Informasjon <i class="fas fa-info-circle"></i>
-                </Button>
+                <Link to='/informasjon'>
+                    <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>
+                        Informasjon <i class="fas fa-info-circle"></i>
+                    </Button>
+                </Link>
                 {/* <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large'>
                     Album <i class="far fa-image"></i>
                 </Button> */}
