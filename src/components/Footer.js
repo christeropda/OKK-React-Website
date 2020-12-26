@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
@@ -16,7 +16,6 @@ function Footer() {
             <a
               class='social-icon-link facebook'
               href='https://www.facebook.com/groups/284606412504384'
-              target='_blank'
               aria-label='Facebook'
             >
               <i class='fab fa-facebook-f' />
